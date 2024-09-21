@@ -31,25 +31,25 @@ header {
   grid-column: 1;
   background-color: var(--blue-color);
   color: white;
-  padding: 12px;
+  padding: 20px;
 }
 
 header > h1 {
   background-color: var(--blue-color);
-  font-size: 2em;
+  font-size: 100px;
   text-align: center;
 }
 
 header > p {
-  font-size: 16px;
+  font-size: 50px;
   text-align: justify;
-  align-content: center;
 }
 
-.school {
+.school > img {
   background-image: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/d8ce469044b958508f4bdbab/blueschoolbackpackwithessentialsupplies_232148207678.jpg);
   grid-row: 1;
   grid-column: 2;
+  background-size: cover;
 }
 
 .student {
@@ -85,6 +85,7 @@ footer {
   grid-column: 2/4;
   background-color: var(--orange-color);
   color: white;
+  padding: 20px;
 }
 
 /* footer > h3 {
