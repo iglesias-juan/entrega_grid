@@ -22,7 +22,6 @@
 @media (max-width: 800px) {
   .container {
     grid-template-columns: 300px;
-    /* grid-template-rows: 300px; */
     grid-template-rows: repeat(7, minmax(250px, 1fr));
   }
   header {
@@ -132,7 +131,9 @@ footer > button {
   cursor: pointer;
   width: 270px;
   height: 90px;
-  font-size: 35px;
+  font-size: 20px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .alumni,
